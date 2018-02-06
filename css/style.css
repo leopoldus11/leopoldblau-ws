@@ -1,0 +1,197 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+/* header */
+
+/* navbar */
+
+/* nav{
+  postion: absolute
+} */
+
+.full-height {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+img.logo {
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  animation-delay: .5s;
+}
+
+img.logo-sz {
+  margin: 0 auto;
+  height: 120px;
+  padding-top: 3rem;
+  animation-delay: 1.2s;
+}
+
+/* /navbar */
+
+h5.heading {
+  padding-top: 4.5rem;
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+  animation-delay: 1.6s;
+}
+
+h5.heading:not():last-child {
+  padding-top: 4.5rem;
+  letter-spacing: 0.25rem;
+}
+
+.phone-links-menu {
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  animation-delay: 2s;
+}
+
+.phone-links-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact-links-menu {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.25rem;
+  z-index: 1000000;
+  animation-delay: 2.2s;
+}
+
+.contact-links-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact-links-list:not(:last-child) {
+  margin-top: 1rem;
+}
+
+.contact-links-items {
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.social-links-menu {
+  position: absolute;
+  left: 1rem;
+  bottom: 0.25rem;
+  animation-delay: 2.2s;
+}
+
+.social-links-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-links-list:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.social-links-items {
+  margin: 1rem 0;
+}
+
+.md-block {
+  display: block !important;
+}
+
+.fa {
+  font-size: 20px;
+  color: #000;
+  opacity: 0.6;
+}
+
+.fa:hover {
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+
+.frankfurt-bg {
+  position: absolute;
+  bottom: 0;
+  z-index: -10;
+}
+
+.frankfurt-bg img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#projects {
+  background: linear-gradient(-20deg, #f7f7f7 0, #f7f7f7 50%, transparent 50%, transparent 100%), #fff;
+}
+
+/* main */
+
+button.btn.amber.lighten-4.waves-effect {
+  color: #000 !important;
+}
+
+a.btn.amber.lighten-4.waves-effect {
+  color: #000 !important;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 320px) {
+  img.logo-sz {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+  h5.heading {
+    font-size: 0.7rem;
+  }
+}
+
+/* iPhone 4/5/6/6 plus */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  img.logo-sz {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
+
+/* iPad / iPad Pro*/
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  img.logo-sz {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+}
+
+/*FIX Section Heading*/
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (min-width: 1366px) {}
