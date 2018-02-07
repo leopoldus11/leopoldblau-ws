@@ -1,15 +1,8 @@
 body {
   font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-weight: 300;
   margin: 0;
 }
-
-/* header */
-
-/* navbar */
-
-/* nav{
-  postion: absolute
-} */
 
 .full-height {
   width: 100vw;
@@ -40,24 +33,28 @@ img.logo {
 }
 
 img.logo-sz {
-  margin: 0 auto;
   height: 120px;
   padding-top: 2rem;
-  animation-delay: 1.2s;
+}
+
+img.frankurt-img {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
 }
 
 .about-list {
   margin: 0 !important;
-  padding: 5.75rem 0;
+  padding: 3.75rem 0;
   list-style-type: none;
   animation-delay: 2s;
 }
 
 .about-items {
   display: inline-block;
-  /* padding: 0 1rem; */
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   letter-spacing: 0.15rem;
 }
 
@@ -82,9 +79,10 @@ h4#copyright-text {
   list-style: none;
 }
 
-.share-links-menu{
+.share-links-menu {
   animation-delay: 2.8s
 }
+
 .share-links-list {
   list-style-type: none;
   margin: 0;
@@ -96,19 +94,21 @@ h4#copyright-text {
   padding: 0 .8rem;
 }
 
+.share-links-items {
+  list-style: none;
+}
+
+.share-text {
+  margin-top: 0;
+  font-size: 1rem !important;
+  animation-delay: 2.6s;
+}
+
 .copyright {
   position: absolute;
   left: 1rem;
   bottom: 1rem;
   animation-delay: 4s;
-}
-
-.share-links-items {
-  list-style: none;
-}
-
-.md-block {
-  display: block !important;
 }
 
 .fa {
@@ -117,11 +117,6 @@ h4#copyright-text {
   opacity: 0.6;
 }
 
-.fa.fa-phone {
-  font-size: 30px;
-  color: #000;
-  opacity: 0.6;
-}
 
 .fa:hover {
   transition: all 0.5s ease;
@@ -131,15 +126,10 @@ h4#copyright-text {
 .frankfurt-bg {
   position: absolute;
   bottom: 0;
+  width: 100%;
   z-index: -10;
+  animation-delay: 4.6s;
 }
-
-.frankfurt-bg img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* main */
 
 /*MEDIA QUERIES*/
 
@@ -169,6 +159,13 @@ h4#copyright-text {
     font-size: 1rem;
     letter-spacing: 0.05rem;
   }
+  img.frankurt-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    padding-top: 2rem;
+  }
 }
 
 /* iPad / iPad Pro*/
@@ -185,4 +182,15 @@ h4#copyright-text {
 
 @media only screen and (max-width: 992px) {}
 
-@media only screen and (min-width: 1366px) {}
+@media only screen and (min-width: 1366px) {
+  img.frankfurt-img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+  }
+}
+
+
+/* Minified */
+
+.full-height,.main-content{position:absolute;top:0;left:0}body{font-family:'Source Sans Pro',Arial,sans-serif;font-weight:300;margin:0}.full-height{width:100vw;height:100vh;overflow:hidden}.main-content{margin:auto;right:0;bottom:0;width:100%;height:350px;text-align:center}.copyright,img.logo{left:1rem;position:absolute}img.logo{top:1rem;animation-delay:.5s}img.logo-sz{height:120px;padding-top:2rem}img.frankurt-img{margin-left:auto;margin-right:auto;height:200px}.about-list{margin:0!important;padding:3.75rem 0;list-style-type:none;animation-delay:2s}.about-items{display:inline-block;text-transform:uppercase;font-size:1.25rem!important;letter-spacing:.15rem}.about-items-text{margin:.875rem 1.125rem}h4#copyright-text{margin:0}.phone-links-menu{position:absolute;right:1rem;bottom:1rem;animation-delay:3.4s}.phone-links-list{padding:0;margin:0;list-style:none}.share-links-menu{animation-delay:2.8s}.share-links-list{list-style-type:none;margin:0;padding:0}.share-links-list li{display:inline-block;padding:0 .8rem}.share-links-items{list-style:none}.share-text{margin-top:0;font-size:1rem!important;animation-delay:2.6s}.copyright{bottom:1rem;animation-delay:4s}.fa{font-size:20px;color:#000;opacity:.6}.fa:hover{transition:all .5s ease;opacity:1}.frankfurt-bg{position:absolute;bottom:0;width:100%;z-index:-10;animation-delay:4.6s}@media only screen and (max-width:320px){img.logo-sz{margin-left:auto;margin-right:auto;height:50px}h5.heading{font-size:.7rem}}@media only screen and (min-width:320px) and (max-width:768px){img.frankurt-img,img.logo-sz{margin-left:auto;margin-right:auto}img.logo-sz{height:50px}.about-items{display:inline-block;text-transform:uppercase;font-size:1rem;letter-spacing:.05rem}img.frankurt-img{display:block;height:200px;padding-top:2rem}}@media only screen and (min-width:768px) and (max-width:1366px){img.logo-sz{margin-left:auto;margin-right:auto;height:100px}}@media only screen and (min-width:1366px){img.frankfurt-img{margin-left:auto;margin-right:auto;height:220px}}
